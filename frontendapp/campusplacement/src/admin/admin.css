@@ -1,0 +1,85 @@
+/* jobseeker.css */
+
+form {
+    margin: auto;
+    width: 300px;
+    text-align: center; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='number'],
+  input[type='email'],
+  select,
+  input[type='date'],
+  textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* button[type='submit'] {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  
+  }
+  
+  button[type='submit']:hover {
+    background-color: #555;
+  } */
+
+
+  .button1 {
+    background-color: rgba(215, 0, 0, 0.773); 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button1:hover {
+    background-color: rgb(191, 29, 29); /* darker shade on hover */
+    box-shadow: 0 0 10px rgba(139, 120, 120, 0.2); /* subtle box shadow on hover */
+  }
+  
+  .table-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .students-table th, .students-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .students-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .students-table tbody tr:hover {
+    background-color: #e8e6e6;
+  }
+  
